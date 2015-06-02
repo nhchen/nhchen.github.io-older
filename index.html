@@ -14,19 +14,20 @@
 <div class = "int popup">
    My name is Nicholas Chen, and I'm applying for the position of webmaster.  I would perform my duties to the fullest extent of my ability, take pride in my work, and enjoy the job!    <p><button class="pure-button prompt pr1">Continue</button></p>
 </div>
-
-
 <div class = "exp popup">
-    This is a website I made about my dog for fun, enjoy!  Also, I use github for all of my projects, which is handy because if you want, you can see my code if technique is something you're interested in. <p><button class="pure-button prompt pr2">Continue</button></p>
+    This is a website I made about my dog for fun, enjoy!  <p><button class="pure-button prompt pr2">Continue</button></p>
 </div>
-
+<div class = "git popup">
+    Also, I use github for all of my projects, which is handy because if you want, you can see my code if technique is something you're interested in. https://github.com/nhchen/nhchen.github.io <p><button class ="pure-button prompt pr3">Continue</button></p>
+</div>
 <body>
 <script type="text/javascript">
 $(document).ready(function(){
     $(".pg1").toggleClass("faded");
-
+    
     $(".popup").hide().fadeIn(1000);
     $(".exp").hide();
+    $(".git").hide();
 })
 $(".pr1").click(function(){
     $(".int").fadeOut(500);
@@ -34,6 +35,10 @@ $(".pr1").click(function(){
 })
 $(".pr2").click(function(){
     $(".exp").fadeOut(500);
+    $(".git").fadeIn(500);
+})
+$(".pr3").click(function(){
+    $(".git").fadeOut(500);
     $(".pg1").toggleClass("faded");
 })
 </script>

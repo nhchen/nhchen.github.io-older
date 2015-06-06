@@ -575,7 +575,7 @@ button {
   text-align: center;
 }
 
-.title{
+.title, h2{
   color:rgb(51, 122, 183) !important;
 }
 

@@ -575,6 +575,10 @@ button {
   text-align: center;
 }
 
+.title{
+  color:rgb(51, 122, 183) !important;
+}
+
 .stop{
   height:58px;
 }

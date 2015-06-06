@@ -125,7 +125,7 @@ a:hover {
 }
 
 .text:hover {
-  border: 3px dashed red;
+  border: 3px dashed maroon;
 }
 
 h2 {
@@ -581,5 +581,7 @@ button {
 
 .stop{
   height:58px;
+  margin-top:18px;
+  
 }
 
